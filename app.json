@@ -1,0 +1,20 @@
+{
+    "name": "Xor",
+    "logo": "https://xorgram.github.io/resources/png/rose.png",
+    "description": "The next-gen Telegram enhancer.",
+    "repository": "https://github.com/xorgram/xor",
+    "env": {
+        "STRING_SESSION": {
+            "description": "The user string session.",
+            "required": true
+        },
+        "API_ID": {
+            "description": "The Telegram app ID.",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "The Telegram app hash.",
+            "required": true
+        }
+    }
+}
