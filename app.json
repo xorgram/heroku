@@ -8,11 +8,11 @@
             "description": "The user string session.",
             "required": true
         },
-        "API_ID": {
+        "APP_ID": {
             "description": "The Telegram app ID.",
             "required": true
         },
-        "API_HASH": {
+        "APP_HASH": {
             "description": "The Telegram app hash.",
             "required": true
         }
