@@ -1,4 +1,3 @@
-FROM node:16-bullseye-slim
-RUN apt update && apt upgrade -y
+FROM node:17-bullseye-slim
 WORKDIR /app
 CMD npx @xorgram/xor
