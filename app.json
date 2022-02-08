@@ -1,6 +1,6 @@
 {
     "name": "Xor",
-    "logo": "https://xorgram.github.io/resources/png/rose.png",
+    "logo": "https://xorgram.github.io/resources/png/rose-rounded.png",
     "description": "The next-gen Telegram enhancer.",
     "repository": "https://github.com/xorgram/xor",
     "env": {
