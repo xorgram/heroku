@@ -3,4 +3,4 @@ RUN apt update && apt upgrade -y
 RUN npm i -g npm
 RUN npm i -g @xorgram/xor
 WORKDIR /app
-CMD @xorgram/xor
+CMD npx @xorgram/xor
