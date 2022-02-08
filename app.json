@@ -16,5 +16,6 @@
             "description": "The Telegram app hash.",
             "required": true
         }
-    }
+    },
+    "stack": "container"
 }
