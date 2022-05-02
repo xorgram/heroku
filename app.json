@@ -17,5 +17,13 @@
             "required": true
         }
     },
+    "addons": [
+        {
+            "plan": "heroku-postgresql",
+            "options": {
+                "version": "13"
+            }
+        }
+    ],
     "stack": "container"
 }
