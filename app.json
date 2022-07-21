@@ -1,7 +1,7 @@
 {
     "name": "Xor",
     "logo": "https://xorgram.github.io/resources/png/rose-rounded.png",
-    "description": "The next-gen Telegram enhancer.",
+    "description": "User bot. Redefined.",
     "repository": "https://github.com/xorgram/xor",
     "env": {
         "STRING_SESSION": {
