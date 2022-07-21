@@ -1,3 +1,3 @@
-FROM node:17-bullseye
+FROM denoland/deno
 WORKDIR /app
-CMD wget -qO- https://raw.githubusercontent.com/xorgram/xor/main/scripts/start.sh | sh
+CMD deno eval "await Deno.stdout.write(new TextEncoder().encode(await (await fetch(\"https://raw.githubusercontent.com/xorgram/xor/main/scripts/start.sh\")).text()))" | sh
