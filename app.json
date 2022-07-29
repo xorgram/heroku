@@ -1,29 +1,37 @@
 {
-    "name": "Xor",
-    "logo": "https://xorgram.github.io/resources/png/rose-rounded.png",
-    "description": "User bot. Redefined.",
-    "repository": "https://github.com/xorgram/xor",
-    "env": {
-        "STRING_SESSION": {
-            "description": "The user string session.",
-            "required": true
-        },
-        "APP_ID": {
-            "description": "The Telegram app ID.",
-            "required": true
-        },
-        "APP_HASH": {
-            "description": "The Telegram app hash.",
-            "required": true
-        }
+  "name": "Xor",
+  "logo": "https://xorgram.github.io/resources/png/rose-rounded.png",
+  "description": "User bot. Redefined.",
+  "repository": "https://github.com/xorgram/xor",
+  "env": {
+    "STRING_SESSION": {
+      "description": "The user string session.",
+      "required": true
     },
-    "addons": [
-        {
-            "plan": "heroku-postgresql",
-            "options": {
-                "version": "13"
-            }
-        }
-    ],
-    "stack": "container"
+    "APP_ID": {
+      "description": "The Telegram app ID.",
+      "required": true
+    },
+    "APP_HASH": {
+      "description": "The Telegram app hash.",
+      "required": true
+    },
+    "COMMAND_PREFIX": {
+      "description": "Prefix for commands.",
+      "required": false
+    },
+    "INPUT_PREFIX": {
+      "description": "Prefix for commands with input.",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "13"
+      }
+    }
+  ],
+  "stack": "container"
 }
